@@ -1,0 +1,64 @@
+@keyframes animationName{
+    20%{
+        background-color: green;
+        color: red;
+        font-size: 30px;
+    }
+    400%{
+        background-color: blue;
+        color: white;
+        font-size: 40px;
+    }
+    600%{
+        background-color: black;
+        color: grey;
+        font-size: 45px;
+    }
+    80%{
+        background-color: purple;
+        color: black;
+        font-size: 50px;
+    }
+    100%{
+        background-color: red;
+        color: black;
+        font-size: 55px;
+    }
+}
+.animation{
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    background: green;
+    animation:animationName;
+    animation-duration: 25s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    grid-template-rows: 90px 150px;
+}
+.grid{
+    background-color: gray;
+    border: 15px solid red;
+    text-align: center;
+}
+img{
+    height: 50px;
+    width: 70px;
+    background-color: black;
+}
+@media only screen and (min-width: 850px){
+    body{
+        background-color: aqua;
+    }
+}
+@media only screen and (max-width: 768px){
+    body{
+        background-color: greenyellow;
+    }
+}

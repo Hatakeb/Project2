@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="terms.html">Terms</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="./jeff.jfif" alt="profile" width="60px" height="60px">
+            <p>Ben</p>
+        </div>
+    </header>
+    <main>
+        <h1>Contactpage</h1>
+
+        <form>
+            <label for="firstName">First Name</label><br>
+            <input type="text" name="firstName" placeholder="Ben" required><br>
+
+            <label for="lastName">Last Name</label><br>
+            <input type="text" name="lastName" placeholder="Pendragon" required><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="Email" id="email" placeholder="pendragon@gmail.com"><br>
+
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option disabled selected hidden>Select gender </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message"></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
+</body>
+</html>

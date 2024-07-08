@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            color: white;
+            background-color: black;
+        }
+        body{
+            color: blueviolet;
+           /* background-color: grey;*/
+        }
+        form{
+            padding: 5px;
+            background-color: navy;
+            color: red;
+            margin-top: 2px;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+   <!--- <div>
+        <div id="error"></div>
+        <input required type="number" id="userinput">
+        <button onclick="validateinput()">Submit</button>
+    </div>-->
+    <form action="" onsubmit="createData()">
+        <div>
+            <label for="title">Title</label>
+            <input id="title">
+        </div>
+        <div>
+            <label for="body">Body</label>
+            <input id="body">
+        </div>
+        <div>
+            <label for="userid">World</label>
+            <input id="userid">
+        </div>
+    </form>
+    <div>
+        <button type="submit" onclick="getData()">Submit</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>userid</th>
+                <th>titloe</th>
+            </tr>
+        </thead>
+    </table>
+    <script src="javascript.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background: blanchedalmond;
+}
+.dotted{
+    border-style: dotted;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+.dashed{
+    border-style: dashed;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 30px;
+    margin: 5px 4px 5px 4px;
+    padding: 20px 20px 30px 20px; 
+}
+solid{
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    border-radius: 30px;
+    margin: 5px 4px 5px 4px;
+    padding: 20px;
+}
+double{
+    border-style: double;
+    border-color: brown;
+    border-width: 5px;
+    border-radius: 30px;
+    margin: 5px 4px 5px 4px;
+    padding: 20px 20px 20px 20px;   
+}
+.mixed{
+    border-style: dashed dotted solid double;
+    border-color: purple;border-width: 5px;
+    border-radius: 30px;
+    margin: 0px 4px 0px 5px;
+    padding: 20px 20px 20px 20px;
+}
+#right{
+    text-align: right;
+    color: aliceblue;
+    text-transform: uppercase;
+    text-shadow: 2px 2px red;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#center{
+    text-align: center;
+    color: blueviolet;
+    text-transform: lowercase;
+    font-size: 20px;
+    font: 14px courier italic;
+}
+#left{
+    text-align:left;
+    color: hotpink;
+    text-transform: capitalize;
+}
